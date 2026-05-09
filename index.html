@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omar & Nadine — We're Getting Married! 25.05.2026</title>
+  <meta name="description"
+    content="Join Omar & Nadine on May 25, 2026 — a fun, doodle-filled wedding invitation. RSVP, see the timeline, and leave a sweet message." />
+  <meta property="og:title" content="Omar & Nadine — Wedding Invitation" />
+  <meta property="og:description" content="We can't wait to celebrate with you on May 25, 2026 ❤️" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Shadows+Into+Light&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-bg"></div>
+    <div class="floating-confetti" id="confetti"></div>
+
+    <div class="envelope-wrap pop-in">
+      <div class="envelope">
+        <div class="envelope-body"></div>
+        <div class="letter" id="letter">
+          <p class="font-hand letter-small">You're invited to celebrate</p>
+          <p class="font-hand letter-big">Omar &amp; Nadine</p>
+          <div class="letter-hearts">
+            <svg class="heart" viewBox="0 0 32 30">
+              <path
+                d="M16 27S3 18.5 3 10.5C3 6 6.5 3 10 3c2.5 0 4.5 1.5 6 4 1.5-2.5 3.5-4 6-4 3.5 0 7 3 7 7.5C29 18.5 16 27 16 27z" />
+            </svg>
+            <svg class="heart small" viewBox="0 0 32 30">
+              <path
+                d="M16 27S3 18.5 3 10.5C3 6 6.5 3 10 3c2.5 0 4.5 1.5 6 4 1.5-2.5 3.5-4 6-4 3.5 0 7 3 7 7.5C29 18.5 16 27 16 27z" />
+            </svg>
+            <svg class="heart" viewBox="0 0 32 30">
+              <path
+                d="M16 27S3 18.5 3 10.5C3 6 6.5 3 10 3c2.5 0 4.5 1.5 6 4 1.5-2.5 3.5-4 6-4 3.5 0 7 3 7 7.5C29 18.5 16 27 16 27z" />
+            </svg>
+          </div>
+        </div>
+        <div class="envelope-pocket"></div>
+        <div class="envelope-flap" id="flap">
+          <svg viewBox="0 0 380 160">
+            <polygon points="0,0 380,0 190,150" />
+          </svg>
+        </div>
+        <div class="wax-seal" id="seal">
+          <svg class="heart" viewBox="0 0 32 30">
+            <path
+              d="M16 27S3 18.5 3 10.5C3 6 6.5 3 10 3c2.5 0 4.5 1.5 6 4 1.5-2.5 3.5-4 6-4 3.5 0 7 3 7 7.5C29 18.5 16 27 16 27z" />
+          </svg>
+        </div>
+      </div>
+      <div class="loading-dots">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING HEARTS BG -->
+  <div class="floating-hearts" id="floating-hearts" aria-hidden="true"></div>
+
+  <main class="container">
+
+    <!-- HERO -->
+    <section class="hero pop-in">
+      <p class="font-scribble eyebrow">✶ You're invited ✶</p>
+      <h1 class="font-hand title">
+        Omar
+        <span class="amp font-scribble">&amp;</span>
+        Nadine
+      </h1>
+
+      <div class="hero-photo-wrap">
+        <div class="tape">
+          <div class="paper-card photo-card rotate-n2">
+            <img src="assets/couple-hero.png" alt="Omar and Nadine" class="hero-img" />
+            <p class="font-hand caption">the troublemakers ♥</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="date-card-wrap">
+        <div class="paper-card date-card rotate-n1">
+          <p class="font-hand date-text">May 25, 2026</p>
+          <p class="font-hand time-text">8:00 Pm</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="text-center">
+      <h2 class="section-title font-hand">Guess what?</h2>
+      <div class="paper-card p-lg rotate-half">
+        <p class="font-scribble story-text">
+          Time flew by so fast — and these two cuties are about to get married!
+          Yep, we still can't believe it ourselves. From scraped knees and
+          silly games to vows and forever… here we go! 💍✨
+        </p>
+      </div>
+    </section>
+
+
+
+    <!-- INVITATION -->
+    <section class="text-center">
+      <h2 class="section-title font-hand">A little message</h2>
+
+      <div class="paper-card p-lg rotate-n1">
+        <p class="font-hand invite-text">We would love for you to be part of <br /> our special day!</p>
+        <p class="invite-sub">Pull up your comfiest shoes — we're throwing the party of our lives 💃🕺</p>
+      </div>
+    </section>
+
+    <!-- CALENDAR -->
+    <section>
+      <h2 class="section-title font-hand">Save the date</h2>
+      <div class="paper-card calendar" id="calendar"></div>
+    </section>
+
+    <!-- WHERE -->
+    <section>
+      <h2 class="section-title font-hand">Where?</h2>
+      <div class="paper-card overflow-hidden rotate-1">
+        <img src="assets/venue.jpg" alt="Al-Ali Al-Azim Mosque, Almaza" class="venue-img" loading="lazy" />
+        <div class="venue-info">
+          <p class="font-hand venue-name">Al-Ali Al-Azim Mosque</p>
+          <p class="venue-sub">Almaza · Cairo, Egypt</p>
+          <a class="btn btn-pill"
+            href="https://www.google.com/maps/place/%D9%85%D8%B3%D8%AC%D8%AF+%D8%A7%D9%84%D8%B9%D9%84%D9%8A+%D8%A7%D9%84%D8%B9%D8%B8%D9%8A%D9%85+%D8%A7%D9%84%D9%85%D8%A7%D8%B8%D8%A9%E2%80%AD/@30.090086,31.3469587,16.33z/data=!4m6!3m5!1s0x145815002cc2406f:0xe4fbaa77b1a168f4!8m2!3d30.0890703!4d31.348924!16s%2Fg%2F11x7hvhp_z?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank" rel="noreferrer">
+            Open Location ♥
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <!-- <section class="text-center">
+      <h2 class="section-title font-hand">Timeline</h2>
+      <div class="paper-card p-lg rotate-1">
+        <p class="font-hand" style="font-size: 36px; margin: 0;">هى و ظروفها</p>
+      </div>
+    </section> -->
+
+    <!-- COUNTDOWN -->
+    <section class="text-center">
+      <h2 class="section-title font-hand">Time left until we meet!</h2>
+      <div class="countdown" id="countdown"></div>
+    </section>
+
+    <!-- RSVP -->
+    <!-- <section class="text-center">
+      <h2 class="section-title font-hand">RSVP</h2>
+      <div class="paper-card p-lg rotate-n1 rsvp-card">
+        <p class="font-scribble rsvp-text">Please let us know if you'll be there!</p>
+        <div class="rsvp-btn-wrap">
+          <button id="rsvp-btn" class="btn btn-rsvp">
+            ♥ Count me in! ♥
+          </button>
+        </div>
+        <p class="font-scribble rsvp-hint">tap the button — it's that easy ✨</p>
+      </div>
+    </section> -->
+
+    <!-- MESSAGE -->
+    <!-- <section>
+      <h2 class="section-title font-hand">Leave us a message 💌</h2>
+      <form id="msg-form" class="paper-card p-md form-card rotate-half">
+        <input id="name" type="text" placeholder="Your name" class="font-scribble input" />
+        <textarea id="msg" placeholder="Write something sweet..." rows="4" class="font-scribble input"></textarea>
+        <button type="submit" class="btn btn-block">Send with love</button>
+      </form>
+    </section> -->
+
+    <!-- FINAL -->
+    <section class="text-center">
+      <h2 class="font-hand final-title">We can't wait to celebrate with you!</h2>
+      <div class="gallery final-gallery">
+        <div class="paper-card overflow-hidden rotate-n3"><img src="assets/couple-final-1.jpg" alt="Together"
+            loading="lazy" /></div>
+        <div class="paper-card overflow-hidden rotate-3"><img src="assets/couple-final-2.jpg" alt="Together"
+            loading="lazy" /></div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center footer">
+      <p class="font-hand footer-name">Omar &amp; Nadine</p>
+      <p class="font-scribble footer-date">25 · 05 · 2026</p>
+
+      <div class="footer-credits">
+        <p class="font-scribble">Created by ذِكــرى</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/_zeekraa/" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+            </svg>
+          </a>
+          <a href="https://www.tiktok.com/@_zeekraa" target="_blank" rel="noreferrer" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- TOAST -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- AUDIO -->
+  <audio id="bg-music" loop preload="auto">
+    <source src="assets/زين عبيد – بدنا نتجوز عالعيد – العرض المباشر الاخير – MBCTheVoiceKids.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- MUSIC TOGGLE -->
+  <button id="music-toggle" class="music-control" aria-label="Toggle Music">
+    <div class="music-icon">
+      <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M8 5v14l11-7z" />
+      </svg>
+      <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
+        <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+      </svg>
+    </div>
+    <div class="music-waves">
+      <span></span><span></span><span></span>
+    </div>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
